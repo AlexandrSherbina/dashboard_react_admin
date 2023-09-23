@@ -7,10 +7,10 @@
   "scripts": {
     "dev": "vite",
     "predeploy": "yarn run vite build",
-    "deploy": "gh-pages -d  build",
+    "deploy": "gh-pages -d  dist",
     "build": "tsc && vite build",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview --port 8800"
+    "serve": "vite preview --port 8800"
   },
   "dependencies": {
     "@emotion/react": "^11.11.1",
